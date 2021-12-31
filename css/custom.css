@@ -5747,11 +5747,17 @@ About Us Page
 *********************************/
 
 .about-video-img {
-	width: 485px;
+	width: 450px;
 	float: left;
 	position: relative;
-	margin-top: 40px;
+	margin-top: 30px;
 }
+
+/* .about-video-img img {
+	max-width: 100%;
+	max-height:auto !important;
+} */
+
 .about-video-img:after {
 	position: absolute;
 	right: -40px;
@@ -5765,10 +5771,10 @@ About Us Page
 }
 .about-video-img img {
 	max-width: 100%;
-	height: auto;
+	min-height :100px; 
 }
 .about-video-section {
-	padding: 100px 0 80px;
+	padding: 50px 0 40px;
 }
 .about-video-img a {
 	width: 70px;
